@@ -206,7 +206,7 @@ input[type=text] {
 
 .contentNewsLeft{
 	flex-flow: column wrap;
-	flex-basis: 15%;
+	flex-basis: 30%;
 }
 
 .contentNewsLeft a{
@@ -262,7 +262,7 @@ input[type=text] {
 
 .contentNewsRight{
 	flex-flow: column wrap;
-	flex-basis: 15%;
+	flex-basis: 30%;
 }
 
 .contentNewsRight a{
