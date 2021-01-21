@@ -1,46 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	  <link rel="stylesheet" href="css/style.css">
+		<script src="http://www.w3schools.com/lib/w3data.js"></script>
 
-  <title>Le Monde diplomatique - Mensuel critique d'informations et d'analyses</title>
-</head>
-<body>
-  
-	<div id="subMenu">
-		<div class="subMenuInn">
-			<div class="newspaperImage"><img src="img/2021-01-s.jpg" /></div>
-			<div class="tags">
-				<div class="tag active"><a href="#">Abonnement</a></div>
-				<div class="tag"><a href="#">Boutique</a></div>
-				<div class="tag"><a href="#">Faire un don</a></div>
-			</div>
-			<div class="editions">
-				<div><p class="editionText">Editions: </p></div>
-				<div class="active"><a href="#">française</a> | </div>
-				<div><a href="#">anglaise</a> | </div>
-				<div><a href="#">internationales</a></div>
-			</div>
-			<div class="conection">
-				<div class="connexionButton"><a href="#">Connexion</a></div>
-			</div>
-		</div>
-	</div>
+	  <title>Le Monde diplomatique - Mensuel critique d'informations et d'analyses</title>
+	</head>
+	<body>
+	  
+		<div w3-include-html="components/submenu.html"></div>
 
-  <div id="generalContainer">
+	  <div id="generalContainer">
+			<div w3-include-html="components/header.html"></div>
+	  </div>
 
-  	<div class="header">
-  		<div class="logo"><a href="#"><img src="img/logo.svg" /></a></div>
-  		<div class="headerMisc">
-	  		<div class="search">search</div>
-  			<div class="description">Mensuel critique d’informations et d’analyses</div>			
-  		</div>
-  	</div>
-  </div>
 
-  
-</body>
+
+
+
+
+
+
+
+		<script>
+			w3IncludeHTML();
+		</script>
+
+	</body>
 </html>
