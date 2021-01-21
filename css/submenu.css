@@ -1,0 +1,88 @@
+#subMenu{
+	max-width: 1020px;
+	margin: 0 auto 50px;
+	margin-bottom: 4px;
+}
+
+.subMenuInn{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.newspaperImage{
+	flex-basis: 10%;
+}
+
+.newspaperImage img{
+	position: absolute;
+	width: 64px;
+	z-index: -1;
+	transform: rotate(-10deg);
+	top: 24px;
+	margin-left: 20px;
+}
+
+.tags {
+	display: flex;
+	flex-basis: 35%;
+}
+
+.tags .tag{
+	padding: 6px 16px 6px 16px;
+	border-radius: 20px;
+  background: #dedee2;
+  margin-right: 8px;
+}
+
+.tags .tag.active{
+	background: #fff195;
+}
+
+.tags .tag:hover{
+	background: #be2e0d;
+}
+
+.tags .tag a{
+	color: rgb(51, 51, 51);
+}
+
+.tags .tag a:hover{
+	color: white;
+}
+
+.editions{
+	display: flex;
+	flex-basis: 40%;
+	color: #999;
+  align-items: center;
+}
+
+.editions .editionText{
+	font-size: 18px;
+}
+
+.editions .active a{
+	color: black;
+}
+
+.editions div{
+	margin-right: 4px;
+}
+
+.editions a{
+	color: #999;
+}
+
+.conection{
+	display: flex;
+	flex-basis: 15%;
+	justify-content: flex-end;
+}
+
+.conection a{
+  background: #6b909e;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+}

@@ -1,0 +1,45 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.logo{
+	flex-basis: 50%;
+}
+
+.headerMisc{
+	flex-basis: 50%;
+}
+
+.logo img{
+	filter: brightness(0);
+	width: 100%;
+}
+
+
+.logo img:hover{
+	filter: none;
+}
+
+/*Search bar*/
+
+#generalSearch{
+	display: flex;
+	flex-direction: row;
+}
+
+.searchIcon{
+	background: black;
+}
+
+input[type=text] {
+	height: 36px;
+}
+
+.searchIcon{
+	display: flex;
+	align-items: center;
+	padding-right: 8px;
+	padding-left: 8px;
+}

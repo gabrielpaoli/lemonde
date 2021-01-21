@@ -1,0 +1,160 @@
+.containerNews{
+	display: flex;
+	margin: 100px 0;
+}
+
+.containerNews h3{
+	font-size: 1.25em;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+
+	flex-flow: row wrap;
+}
+
+.containerNews span{
+	color: #999;
+	font-family: Helvetica, Arial, sans-serif;
+	flex-flow: row wrap;
+}
+
+.containerNews .border{
+	width: 100%;
+	padding: 10px 0;
+	margin: 10px 0;
+	border-bottom: 1px dashed #ccc;
+}
+
+/*Container News Left*/
+
+.contentNewsLeft{
+	flex-flow: column wrap;
+	flex-basis: 30%;
+}
+
+.contentNewsLeft a{
+	margin: 10px 0;
+	display: inline;
+}
+
+.contentNewsLeft span{
+	color: #999;
+	font-family: Helvetica, Arial, sans-serif;
+	flex-flow: row wrap;
+}
+
+.contentNewsLeft p{
+	color: red;
+	margin-right: 1px;
+	display: inline
+}
+
+.contentNewsLeft .blogGreen{
+	color: rgb(82, 150, 82);
+}
+
+/*Container News Center*/
+
+.contentNewsCenter{
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.contentNewsCenter img{
+	width: 300px;
+}
+
+.contentNewsCenter a{
+	margin: 0 10px;
+}
+
+.contentNewsCenter h3{
+	font-size: 18pt;
+	font-weight: 500;
+	width: 300px;
+}
+
+.contentNewsCenter p{
+	width: 300px;
+	color: #999;
+}
+/*Container News Right*/
+
+.contentNewsRight{
+	flex-flow: column wrap;
+	flex-basis: 30%;
+}
+
+.contentNewsRight a{
+	margin: 10px 0;
+	display: inline;
+}
+
+.contentNewsRight span{
+	color: #999;
+	font-family: Helvetica, Arial, sans-serif;
+	flex-flow: row wrap;
+}
+
+/* Dossier */
+
+.containerDossier{
+	font-size: 14pt;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: .9px;
+	text-transform: uppercase;
+	margin: 50px 0;
+	align-items: center;
+}
+
+.containerDossier img{
+	width: 130px;
+	flex-basis: 15%;
+	margin-right: 20px;
+}
+
+.containerDossier a{
+	display: flex;
+
+}
+
+.containerDossier h3{
+	color: black;
+}
+
+.containerDossier span{
+	color: #b52a0a;
+}
+
+.containerDossier p{
+	color: #999;
+}
+
+.imgcontentNews2{
+	width: 150px;
+	border: 1px solid #999;
+}
+
+.newCenterBig{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	text-align: justify;
+}
+
+.newCenterBig img{
+	width: 500px;
+}
+
+.newCenterBig p{
+	color: black;
+	width: 500px;
+}
+
+.contentNewsRight img{
+	width: 300px;
+}
