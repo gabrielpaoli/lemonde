@@ -9,8 +9,12 @@
 }
 
 .headerMisc{
-	flex-basis: 50%;
+  flex-basis: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .logo img{
 	filter: brightness(0);
@@ -27,6 +31,10 @@
 #generalSearch{
 	display: flex;
 	flex-direction: row;
+}
+
+#generalSearch input{
+	width: 350px;
 }
 
 .searchIcon{
