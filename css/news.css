@@ -1,6 +1,6 @@
 .containerNews{
 	display: flex;
-	margin: 100px 0;
+	margin: 20px 0;
 }
 
 .containerNews h3{
@@ -60,7 +60,6 @@
 	display: flex;
 	flex-flow: row wrap;
 	padding: 0 10px;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -107,7 +106,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: .9px;
 	text-transform: uppercase;
-	margin: 50px 0;
+	margin: 5px 0;
 	align-items: center;
 }
 
@@ -147,12 +146,12 @@
 }
 
 .newCenterBig img{
-	width: 500px;
+	width: 100%;
 }
 
 .newCenterBig p{
 	color: black;
-	width: 500px;
+	width: 100%;
 }
 
 .contentNewsRight img{
