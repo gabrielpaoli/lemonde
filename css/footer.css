@@ -1,0 +1,41 @@
+﻿.footer{
+	padding: 0 0 30px;
+	display: flex;
+	flex-flow: row no-wrap;
+	justify-content: space-between;
+	width: 100%;
+	height: auto;
+	background-color: #eee;
+	margin: -30px auto 50px;
+}
+
+.footer .informationContainer {
+	width: 24%;
+	height: 100%;
+	font-family: helvetica,arial,sans-serif;
+}
+
+.footer a {
+	color: #666;
+}
+
+.footer a {
+	padding-left: 6px;
+}
+
+.footer a:hover {
+	color: #be2e0d;
+}
+
+.footer .informationContainer a::before {
+	content: '→ ';
+}
+
+.footer .informationContainer span {
+	font-size: 1.2em;
+	color: #333;
+}
+
+.footer .informationContainer h3{
+	margin: 0 auto 0 auto;	
+}
