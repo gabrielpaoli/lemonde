@@ -1,41 +1,71 @@
-﻿.footer{
-	padding: 0 0 30px;
+﻿/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+footer{
+    margin: -19px auto 30px;
+    max-width: 960px;
+    padding: 20px 30px 30px;
+    background: #D9D9D9;
+    padding-left: 30px;
+}
+
+footer .informationContainer {
 	display: flex;
-	flex-flow: row no-wrap;
-	justify-content: space-between;
-	width: 100%;
-	height: auto;
-	background-color: #eee;
-	margin: -30px auto 50px;
+	font-family: Walbaumgrot,helvetica,arial,sans-serif;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
-.footer .informationContainer {
-	width: 24%;
-	height: 100%;
-	font-family: helvetica,arial,sans-serif;
+footer ul{
+	padding-inline-start: 0px;
 }
 
-.footer a {
+footer .informationContainer ul {
+	margin: 0px 10px 0px 0px;
+}
+
+footer a {
 	color: #666;
 }
 
-.footer a {
+footer a {
 	padding-left: 6px;
 }
 
-.footer a:hover {
+footer a:hover {
 	color: #be2e0d;
 }
 
-.footer .informationContainer a::before {
-	content: '→ ';
+footer .informationContainer ul li::before {
+	content: '→';
+	color: grey;
 }
 
-.footer .informationContainer span {
+footer .informationContainer li .first::before {
+	content: ' ';
+}
+
+footer .informationContainer li .first {
 	font-size: 1.2em;
 	color: #333;
 }
 
-.footer .informationContainer h3{
-	margin: 0 auto 0 auto;	
+.listPoint {
+	padding-bottom: 3px;
+}
+
+footer .informationContainer h3{
+	margin: 0 auto 0 auto;
+	font-weight: 550;
+	font-size: 19px;
+	padding-bottom: 9px;
+}
+
+ol, ul {
+	list-style: none;
 }
